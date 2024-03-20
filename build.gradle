@@ -9,15 +9,9 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
 repositories {
-    mavenCentral()
-    flatDir {
-        dirs("/Users/a.shafor/IdeaProjects/meetup2803/starter/build/libs")
-    }
+    mavenLocal()
 }
 
 dependencies {
-    implementation name: "message-starter-0.0.1-SNAPSHOT"
-
-    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation "ru.java.meetup:message-starter:0.0.1-SNAPSHOT"
 }
-
