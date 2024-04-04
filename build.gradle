@@ -10,6 +10,7 @@ sourceCompatibility = '17'
 
 repositories {
     mavenLocal()
+    mavenCentral()
 }
 
 dependencies {
